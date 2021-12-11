@@ -5,9 +5,9 @@ export LANG="en_US.UTF-8"
 #脚本变量
 DATE=`date "+%Y%m%d"`
 PREFIX="/usr/local"
-PERL_VERSION="5.35.3"
+PERL_VERSION="5.35.6"
 OPENSSL_VERSION="openssl-1.1.1l"
-OPENSSH_VERSION="openssh-8.7p1"
+OPENSSH_VERSION="openssh-8.8p1"
 DROPBEAR_VERSION="dropbear-2020.81"
 PERL_DOWNLOAD="https://www.cpan.org/src/5.0/perl-$PERL_VERSION.tar.gz"
 OPENSSL_DOWNLOAD="https://www.openssl.org/source/$OPENSSL_VERSION.tar.gz"
