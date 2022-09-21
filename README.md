@@ -7,5 +7,5 @@ bash <(curl -sSL https://raw.githubusercontent.com/gobyto/update-openssl-openssh
 ```
 加速版
 ```
-https://github.91chi.fun/https://raw.githubusercontent.com/gobyto/update-openssl-openssh/main/update-openssl-openssh.sh
+bash <(curl -sSL [https://raw.githubusercontent.com/gobyto/update-openssl-openssh/main/update-openssl-openssh.sh](https://github.91chi.fun/https://raw.githubusercontent.com/gobyto/update-openssl-openssh/main/update-openssl-openssh.sh))
 ```
