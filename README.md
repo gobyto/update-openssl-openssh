@@ -5,3 +5,7 @@ OpenSSL、OpenSSH一般官方每年会更新两次，修复已知安全漏洞和
 ```
 bash <(curl -sSL https://raw.githubusercontent.com/gobyto/update-openssl-openssh/main/update-openssl-openssh.sh)
 ```
+加速版
+```
+https://github.91chi.fun/https://raw.githubusercontent.com/gobyto/update-openssl-openssh/main/update-openssl-openssh.sh
+```
