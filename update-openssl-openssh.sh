@@ -2,11 +2,12 @@
 clear
 export LANG="en_US.UTF-8"
 
+#update.fix.20220921
 #脚本变量
 DATE=`date "+%Y%m%d"`
 PREFIX="/usr/local"
-PERL_VERSION="5.34.1"
-OPENSSL_VERSION="openssl-1.1.1n"
+PERL_VERSION="5.37.3"
+OPENSSL_VERSION="openssl-1.1.1q"
 OPENSSH_VERSION="openssh-9.0p1"
 DROPBEAR_VERSION="dropbear-2022.82"
 PERL_DOWNLOAD="https://www.cpan.org/src/5.0/perl-$PERL_VERSION.tar.gz"
