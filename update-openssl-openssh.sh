@@ -2,17 +2,19 @@
 clear
 export LANG="en_US.UTF-8"
 
-#update.fix.20220921
+#update.fix.20221019
 #脚本变量
 DATE=`date "+%Y%m%d"`
 PREFIX="/usr/local"
-PERL_VERSION="5.37.3"
-OPENSSL_VERSION="openssl-1.1.1q"
-OPENSSH_VERSION="openssh-9.0p1"
+PERL_VERSION="5.37.4"
+OPENSSL_VERSION="openssl-1.1.1r"
+OPENSSH_VERSION="openssh-9.1p1"
 DROPBEAR_VERSION="dropbear-2022.82"
 PERL_DOWNLOAD="https://www.cpan.org/src/5.0/perl-$PERL_VERSION.tar.gz"
 OPENSSL_DOWNLOAD="https://www.openssl.org/source/$OPENSSL_VERSION.tar.gz"
-OPENSSH_DOWNLOAD="https://cdn.openbsd.org/pub/OpenBSD/OpenSSH/portable/$OPENSSH_VERSION.tar.gz"
+#https://mirrors.aliyun.com/openssh/portable/openssh-9.1p1.tar.gz
+#OPENSSH_DOWNLOAD="https://cdn.openbsd.org/pub/OpenBSD/OpenSSH/portable/$OPENSSH_VERSION.tar.gz"
+OPENSSH_DOWNLOAD="https://mirrors.aliyun.com/openssh/portable/$OPENSSH_VERSION.tar.gz"
 DROPBEAR_DOWNLOAD="https://matt.ucc.asn.au/dropbear/releases/$DROPBEAR_VERSION.tar.bz2"
 DROPBEAR_PORT="6666"
 OPENSSH_RPM_INSTALLED=$(rpm -qa | grep ^openssh | wc -l)
