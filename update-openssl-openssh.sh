@@ -6,10 +6,10 @@ export LANG="en_US.UTF-8"
 #脚本变量
 DATE=`date "+%Y%m%d"`
 PREFIX="/usr/local"
-PERL_VERSION="5.37.4"
-OPENSSL_VERSION="openssl-1.1.1r"
+PERL_VERSION="5.37.5"
+OPENSSL_VERSION="openssl-1.1.1s"
 OPENSSH_VERSION="openssh-9.1p1"
-DROPBEAR_VERSION="dropbear-2022.82"
+DROPBEAR_VERSION="dropbear-2022.83"
 PERL_DOWNLOAD="https://www.cpan.org/src/5.0/perl-$PERL_VERSION.tar.gz"
 OPENSSL_DOWNLOAD="https://www.openssl.org/source/$OPENSSL_VERSION.tar.gz"
 #https://mirrors.aliyun.com/openssh/portable/openssh-9.1p1.tar.gz
